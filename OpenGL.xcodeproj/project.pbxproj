@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE311C271E2B44A100F82ACE /* Creating Blank Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE311C261E2B44A100F82ACE /* Creating Blank Window.cpp */; };
+		BE311C271E2B44A100F82ACE /* CreatingBlankWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE311C261E2B44A100F82ACE /* CreatingBlankWindow.cpp */; };
 		BE6F26301E14A024006CDBAE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6F262F1E14A024006CDBAE /* OpenGL.framework */; };
 		BE6F26361E14A086006CDBAE /* glew.h in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6F26351E14A086006CDBAE /* glew.h */; };
 		BE6F26381E14A0AB006CDBAE /* glfw3.h in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6F26371E14A0AB006CDBAE /* glfw3.h */; };
@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		BE2900C91E0E276500EED0D8 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE311C261E2B44A100F82ACE /* Creating Blank Window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Creating Blank Window.cpp"; sourceTree = "<group>"; };
+		BE311C261E2B44A100F82ACE /* CreatingBlankWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreatingBlankWindow.cpp; sourceTree = "<group>"; };
 		BE6F262F1E14A024006CDBAE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		BE6F26351E14A086006CDBAE /* glew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glew.h; path = /usr/local/Cellar/glew/2.0.0/include/GL/glew.h; sourceTree = "<absolute>"; };
 		BE6F26371E14A0AB006CDBAE /* glfw3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = glfw3.h; path = /usr/local/Cellar/glfw/3.2.1/include/GLFW/glfw3.h; sourceTree = "<absolute>"; };
@@ -78,7 +78,7 @@
 			children = (
 				BE6F26351E14A086006CDBAE /* glew.h */,
 				BE6F26371E14A0AB006CDBAE /* glfw3.h */,
-				BE311C261E2B44A100F82ACE /* Creating Blank Window.cpp */,
+				BE311C261E2B44A100F82ACE /* CreatingBlankWindow.cpp */,
 			);
 			path = OpenGL;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE311C271E2B44A100F82ACE /* Creating Blank Window.cpp in Sources */,
+				BE311C271E2B44A100F82ACE /* CreatingBlankWindow.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
